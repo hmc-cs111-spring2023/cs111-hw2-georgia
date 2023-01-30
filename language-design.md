@@ -127,6 +127,19 @@ In what way is an API a language?
 
 **Response**
 
+APIs are like a language in the sense that they allow users to expand their
+programs. They also work with other general languages, adding onto the usability
+of the language itself. There are a few arguments in Bloch's text about good
+API design that emphasize the ways in which an API is a language. First, there
+are characteristics of good languages that are also characteristics of good
+APIs, for example Block argues to "keep APIs free of implenetations details", 
+"documentation matters" and "obey the principle of least astonishment" [Bloch,
+2006]. Each of these ideas contribute to making a language and an API easier
+for a user to work with. Additionally, there are connections between the creation
+of languages and APIs, for example "API design is an art, not a science" and 
+"API design is not a solitary activity" [Block, 2006]. There is creativity and
+collaboration necessary to both building a language and an API.
+
 ---
 
 **Question**
@@ -134,6 +147,16 @@ In what way is an API a language?
 What does the post on grayscale tell us about the process of API design?
 
 **Response**
+
+First, it is good to get user feedback from informed users. The authors encourage
+voting, but also write "if you can’t be bothered to read the post and understand
+the proposals well, please, refrain from voting" [Verou, 2014]. Additionally,
+through reading this article I learned that the prior CSS styling for grayscale
+is not intuitive at all, but that also it is somewhat complicated to try to
+decide what to change the styling to such that it is best for users. I found
+that all three new proposals make a lot of sense, and I am not sure what I would
+think about to decide which one is best. However, it is important to note that
+I have only rarely used CSS, so I do not hold strong opinions about CSS style.
 
 ---
 
@@ -163,5 +186,16 @@ you choose to include natural language in the design of a DSL? If so, how might
 you do so? If not, why not?
 
 **Response**
+
+I would choose not to include natural language in the design of a DSL. Based off
+of the quote above, and my own thoughts, I think that it would be much more
+difficult to remember rules about natural language code chuncks than scripted
+language code chuncks. I also think that at the end of the day, a programming
+language is a script, so there is likely some benefit to thinking about your
+code as a script rather than natural language.
+
+I think that if someone was to create a well designed natural language, their
+team would need to have a through understanding of linguistics, as well as high
+quality natural language processing data and technologies. 
 
 ---

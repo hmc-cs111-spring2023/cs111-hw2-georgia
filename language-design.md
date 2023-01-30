@@ -99,8 +99,8 @@ exciting for Steele, as internal DSLs are written in the general language, and
 are a very important contribution to the general language. Internal DSLs are a
 growth of general purpose languages.
 
-I also find it interesting that Fowler heavily encourages using DSLs. The first
-reason that he cites is that DSLs improve development productivity as a DSL
+I also find it interesting why Fowler heavily encourages using DSLs. The first
+reason that he cites is that DSLs improve development productivity, as a DSL
 "provides a means to more clearly communicate the intent of a part of a system"
 [Fowler, 2010]. Fowler's understanding of why DSLs are useful connects to
 Steele's focus on language growth improving the language. Using a DSL makes
@@ -117,7 +117,7 @@ will be slow. But if one lets the users help do the work, growth can be quick.
 If many persons work side by side, and the best work is added with care and good
 taste, a great deal can be added in a short time" [Steele, 1998]. I think that
 Steele would argue that there one great way to make the cost of DSL creation
-low, is to allow for collaboration through making the DSL code open source.
+low is to allow for collaboration through making the DSL code open source.
 
 ---
 
@@ -127,15 +127,15 @@ In what way is an API a language?
 
 **Response**
 
-APIs are like a language in the sense that they allow users to expand their
-programs. They also work with other general languages, adding onto the usability
+APIs are like a language in the sense that they allow users to expand general purpose
+languages. They also work with other general languages, adding onto the usability
 of the language itself. There are a few arguments in Bloch's text about good
 API design that emphasize the ways in which an API is a language. First, there
 are characteristics of good languages that are also characteristics of good
 APIs, for example Block argues to "keep APIs free of implenetations details", 
 "documentation matters" and "obey the principle of least astonishment" [Bloch,
 2006]. Each of these ideas contribute to making a language and an API easier
-for a user to work with. Additionally, there are connections between the creation
+for a user to work with. Second, there are connections between the creation
 of languages and APIs, for example "API design is an art, not a science" and 
 "API design is not a solitary activity" [Block, 2006]. There is creativity and
 collaboration necessary to both building a language and an API.
